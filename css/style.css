@@ -1,0 +1,29 @@
+.gridGame {
+  width: 600px;
+  height: 600px;
+
+  border: 2px solid black;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+
+  cursor: pointer;
+}
+
+.bomb {
+  background-color: crimson !important;
+}
+.active {
+  background-color: blue;
+}
